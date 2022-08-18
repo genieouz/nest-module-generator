@@ -1,0 +1,22 @@
+# ide
+.idea/
+.vscode/
+
+.DS_STORE
+
+# deps
+node_modules/
+yarn.lock # npm rules (https://iamturns.com/yarn-vs-npm-2018/)
+
+# env
+.env
+.env_clone_db
+
+# logs
+logs/
+
+# tmp
+migrations-v2/**/*.txt
+
+# build
+dist
