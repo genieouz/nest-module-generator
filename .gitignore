@@ -18,5 +18,3 @@ logs/
 # tmp
 migrations-v2/**/*.txt
 
-# build
-dist
