@@ -5,7 +5,6 @@ import * as inquirer from 'inquirer';
 import * as chalk from 'chalk';
 import * as template from './utils/template';
 import * as yargs from 'yargs';
-import { kebabCase } from 'lodash';
 
 const CHOICES = fs.readdirSync(path.join(__dirname,'..', 'templates'));
 const QUESTIONS = [

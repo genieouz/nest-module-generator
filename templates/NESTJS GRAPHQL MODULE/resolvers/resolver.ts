@@ -32,7 +32,7 @@ export class <%= pascalCase(moduleName)%>Resolver {
     return this.<%= camelCase(moduleName)%>Service.findMany({});
   }
 
-  @Mutation(returns => <%= pascalCase(moduleName)%>)
+  @Query(returns => <%= pascalCase(moduleName)%>)
   fetch<%= pascalCase(moduleName)%>(
     @Args({ name: '<%= camelCase(moduleName)%>Id', type: () => ID }) <%= camelCase(moduleName)%>Id: string,
   ): Promise<I<%= pascalCase(moduleName)%>> {
