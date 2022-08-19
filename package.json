@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "main": "index.js",
   "license": "UNLICENSED",
+  "keywords": ["cli", "nest", "nestjs", "generate module", "code generator"],
+  "preferGlobal": true,
   "scripts": {
     "start": "ts-node src/index.ts",
     "build": "tsc && shx rm -rf dist/templates && shx cp -r templates dist"
