@@ -1,9 +1,15 @@
 {
   "name": "nest-module-generator-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "license": "UNLICENSED",
-  "keywords": ["cli", "nest", "nestjs", "generate module", "code generator"],
+  "keywords": [
+    "cli",
+    "nest",
+    "nestjs",
+    "generate module",
+    "code generator"
+  ],
   "preferGlobal": true,
   "scripts": {
     "start": "ts-node src/index.ts",
